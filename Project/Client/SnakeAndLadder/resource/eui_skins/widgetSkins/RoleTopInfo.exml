@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleTopInfo" width="640" height="167" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="Common_json.bg_02" top="0" height="167" left="0" width="343"/>
+	<ns1:HeadIconWidget id="head_icon" width="110" height="135" skinName="HeadIconWidgetSkin" scaleX="0.75" scaleY="0.75" top="15" left="10"/>
+	<e:Label id="lab_nickName" text="MYG_Player" x="112" y="20" width="129" height="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" size="20" textColor="0x445fa4" fontFamily="hydsf"/>
+	<e:Label id="lab_gold" text="1999" x="184" y="63" textAlign="left" anchorOffsetX="0" width="60" height="20" size="20" textColor="0xffffff" fontFamily="hydsf"/>
+	<e:Image width="42" height="51" x="106" y="41" source="Common_json.icon_apple"/>
+	<ns1:MyButton id="btn_setting" label="" width="92" height="115" right="0" top="0"/>
+	<ns1:MyButton id="btn_shop" label="" width="50" height="50" left="254" top="47"/>
+</e:Skin>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchTip" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="717" height="432" x="-24" y="376.5" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="10,10,10,10" source="Common_json.frame_01"/>
+	<e:Image width="637" height="298" x="3" y="110.5" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.bg_04"/>
+	<e:Image width="357" height="52" x="142" y="250" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.font_exit"/>
+	<e:Image id="quit" width="71" height="71" x="594.47" y="267.82" anchorOffsetX="46.97" anchorOffsetY="31.82" source="Common_json.icon_x"/>
+	<e:Image width="709" height="266" x="-34" y="416.5" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.frame_09" scale9Grid="10,10,10,10"/>
+	<e:Label text="Are  you  sure  you  want  to  leave the  game?" y="337.66" textColor="0xC83160" anchorOffsetX="0" width="480" anchorOffsetY="0" height="116.67" fontFamily="hydsf" lineSpacing="10" horizontalCenter="0" textAlign="center"/>
+	<e:Label text="You paid xx Apples  to join this game. you wont get any as a reward if you quit!" y="469.54" anchorOffsetX="0" width="530" anchorOffsetY="0" height="160" textColor="0x884526" fontFamily="hydsf" lineSpacing="15" horizontalCenter="0" textAlign="center"/>
+	<e:Button id="determine" label="Yes" x="166.01" y="721.49" anchorOffsetX="100" width="204" anchorOffsetY="31.82" height="62.67">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button_blue"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="back" label="No" x="462.39" y="724.52" anchorOffsetX="104.55" width="210.67" anchorOffsetY="34.85" height="64.01">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button_green_l"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

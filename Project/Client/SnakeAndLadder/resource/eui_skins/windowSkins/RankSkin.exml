@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="936" height="958.98" x="-123.98" y="646.24" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.frame_09" scale9Grid="10,10,10,10"/>
+	<e:Image width="642" height="250.98" x="0.02" y="410.27" source="Common_json.bg_04" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:ToggleButton id="gobalBtn" label="" x="165.54" y="657.64" anchorOffsetX="104.54" width="209" anchorOffsetY="31.82" height="63">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button_blue"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Label id="globalText" text="Global" x="165.5" y="654.84" size="24" fontFamily="Microsoft YaHei" touchEnabled="false" anchorOffsetX="37.5" anchorOffsetY="12"/>
+	<e:ToggleButton id="friendBtn" label="" x="466.55" y="655.65" anchorOffsetX="105.05" width="209" anchorOffsetY="33.83" height="63">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button_green_l"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Label id="friendText" text="Friend" x="466" y="651.56" size="24" fontFamily="Microsoft YaHei" touchEnabled="false" anchorOffsetX="36.5" anchorOffsetY="12"/>
+	<e:Label text="The list resets at 6 every Monday" x="178.66" y="609.59" size="22" fontFamily="Microsoft YaHei" touchEnabled="false" anchorOffsetX="36.5" anchorOffsetY="12" textColor="0xc8315f"/>
+	<e:Image width="341" height="56" x="153.54" y="539.62" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.font_lead"/>
+</e:Skin>

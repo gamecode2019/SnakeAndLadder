@@ -1,0 +1,32 @@
+{
+    "server": {
+        "ssl": false,
+        "dev": true,
+        "debug": true,
+        "port": 8201,
+        "wsport": 8200,
+        "dbip": "127.0.0.1",
+        "dbport": 8202
+    },
+    "mysql": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "123456",
+        "database": "db_snakeladder"
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "dbindex": 6,
+        "password": "pw123456"
+    },
+    "weixin_dev": {
+        "appid": "wx3683fe86cc9feb55",
+        "appsecret": "f939b2e23763be926f31a08520f0f083"
+    },
+    "weixin": {
+        "appid": "wxd2c9ae986dc171a4",
+        "appsecret": "99dfa0d9b53dc1ebc7de28efd42d5c6b"
+    }
+}

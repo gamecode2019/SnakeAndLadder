@@ -1,0 +1,108 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,btn_flash_png,btn_flash_json,SongSheet_csv,HeadIcons_json,BmpFonts_fnt,BmpFonts_png,Emojis_json,hydsf_ttf,HeadIconTest_json,black_png,singleColor_png,tx_1_png,Common_json,map_01_png",
+			"name": "preload"
+		},
+		{
+			"keys": "bar_jiazai_01_png,bar_jiazai_02_png,bg_03_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Animate/btn_flash.png",
+			"type": "image",
+			"name": "btn_flash_png"
+		},
+		{
+			"url": "assets/Animate/btn_flash.json",
+			"type": "json",
+			"name": "btn_flash_json"
+		},
+		{
+			"url": "assets/Loading/bar_jiazai_01.png",
+			"type": "image",
+			"name": "bar_jiazai_01_png"
+		},
+		{
+			"url": "assets/Loading/bar_jiazai_02.png",
+			"type": "image",
+			"name": "bar_jiazai_02_png"
+		},
+		{
+			"url": "config/SongSheet.csv",
+			"type": "text",
+			"name": "SongSheet_csv"
+		},
+		{
+			"url": "assets/Atlas/HeadIcons.json",
+			"type": "sheet",
+			"name": "HeadIcons_json",
+			"subkeys": "icon_head_main_01,icon_mask_main_01"
+		},
+		{
+			"url": "assets/Font/BmpFonts.fnt",
+			"type": "font",
+			"name": "BmpFonts_fnt"
+		},
+		{
+			"url": "assets/Font/BmpFonts.png",
+			"type": "image",
+			"name": "BmpFonts_png"
+		},
+		{
+			"url": "assets/Atlas/Emojis.json",
+			"type": "sheet",
+			"name": "Emojis_json",
+			"subkeys": "emojis_01,emojis_02,emojis_03,emojis_04"
+		},
+		{
+			"url": "assets/Texture/BackGround/bg_03.png",
+			"type": "image",
+			"name": "bg_03_png"
+		},
+		{
+			"url": "assets/Font/hydsf.ttf",
+			"type": "bin",
+			"name": "hydsf_ttf"
+		},
+		{
+			"url": "assets/Atlas/HeadIconTest.json",
+			"type": "sheet",
+			"name": "HeadIconTest_json",
+			"subkeys": "head1,head2,head3,head4,head5,head6,head7,head8"
+		},
+		{
+			"url": "assets/Texture/black.png",
+			"type": "image",
+			"name": "black_png"
+		},
+		{
+			"url": "assets/Texture/singleColor.png",
+			"type": "image",
+			"name": "singleColor_png"
+		},
+		{
+			"url": "assets/Animate/tx_1.png",
+			"type": "image",
+			"name": "tx_1_png"
+		},
+		{
+			"url": "assets/Atlas/Common.json",
+			"type": "sheet",
+			"name": "Common_json",
+			"subkeys": "apple,apple_l,bg_01,bg_02,bg_04,bg_05,button,button_blue,button_blue_l,button_green_l,font_exit,font_fail,font_hint,font_info,font_lead,font_matc,font_sett,font_shop,font_succ,font_wait,frame_01,frame_02,frame_03,frame_04,frame_05,frame_06,frame_07,frame_08,frame_09,frame_10,frame_11,frame_12,frame_13,frame_14,frame_15,frame_16,frame_17,halo_01,halo_02,icon_+,icon_SET,icon_apple,icon_heidian,icon_huiche,icon_jiantou,icon_jiantou1,icon_landian,icon_music,icon_music1,icon_sezi,icon_sound1,icon_x,iconsound,mask,money"
+		},
+		{
+			"url": "assets/Texture/BackGround/map_01.png",
+			"type": "image",
+			"name": "map_01_png"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayersSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="582" height="502" x="31" y="277" scale9Grid="0,212,582,10" source="Common_json.bg_05" visible="false"/>
+	<e:Image width="270" height="56" x="183" y="405" source="Common_json.font_sett" visible="false"/>
+	<e:Button id="btn_close" label="" x="541" y="372" width="71" height="71" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.icon_x"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="Image" x="139" y="502" width="67" height="22" textColor="0x884526" size="24" visible="false"/>
+	<ns1:HeadIconWidget id="head_icon" width="110" height="135" skinName="HeadIconWidgetSkin" scaleX="1" left="117" top="531" visible="false"/>
+	<e:Image width="365" height="138" x="230" y="511" scale9Grid="29,46,22,36" source="Common_json.frame_13"/>
+	<e:Scroller id="srcListPlayers" width="342" height="138" y="511" anchorOffsetX="0" anchorOffsetY="0" x="251" scrollPolicyH="on" scrollPolicyV="off">
+		<e:List id="listPlayers" y="0" width="342" height="138" anchorOffsetX="0" x="19">
+			<e:layout>
+				<e:HorizontalLayout gap="15" paddingTop="12" paddingBottom="12" paddingLeft="12"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btn_exit" label="Exit a game" left="78" top="703" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_share" label="share" left="358" top="703" height="63" width="209" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button_blue_l"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

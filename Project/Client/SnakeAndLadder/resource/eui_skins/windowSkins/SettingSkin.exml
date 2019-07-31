@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1677871441a"/>
+	<e:Image id="bg" width="723.34" height="2277.67" x="-41.67" y="-41.67" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="1,1,6,6" source="Common_json.mask"/>
+	<e:Image width="552" height="326" x="50" y="448" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="3,9,16,18" source="Common_json.frame_01"/>
+	<e:Image width="582" height="268" x="36" y="252" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.bg_05"/>
+	<e:Image width="262" height="64" x="190" y="402" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.font_sett"/>
+	<e:Image id="effectImg" width="28" height="52" x="318" y="510" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.iconsound"/>
+	<e:Image id="musicImg" width="28" height="52" x="316" y="592" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.icon_music"/>
+	<e:Button id="closeBtn" label="" x="578.13" y="406.07" rotation="1.24" anchorOffsetX="38.56" width="71" anchorOffsetY="30.99" height="71">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.icon_x"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:HeadIconWidget id="playerImg" width="110" height="135" left="117" top="531"/>
+	<e:Button id="shareBtn" label="Share" x="462" y="736.3" anchorOffsetX="100" width="204" anchorOffsetY="30.3" height="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button_green_l"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="quitBtn" label="Exit a game" x="184" y="735.82" anchorOffsetX="100" width="206" anchorOffsetY="31.82" height="58">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="quitRoom" label="Exit room" x="336.42" y="739.74" anchorOffsetX="100" width="206" anchorOffsetY="31.82" height="58">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.button"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="effectBtn" label="" x="482" y="520" anchorOffsetX="0" width="70" anchorOffsetY="0" height="30">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.frame_12"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="effectOnImg" width="38" height="34" x="514.91" y="516.61" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="Common_json.icon_landian"/>
+	<e:Image id="effectOffImg" width="38" height="34" x="476.91" y="516.61" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="Common_json.icon_heidian"/>
+	<e:Button id="musicBtn" label="" x="477.74" y="598" anchorOffsetX="0" width="74" anchorOffsetY="0" height="26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Common_json.frame_12"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="musicOnImg" width="38" height="34" x="517.39" y="594.61" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="Common_json.icon_landian"/>
+	<e:Image id="musicOffImg" width="38" height="34" x="476.91" y="594.61" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="Common_json.icon_heidian"/>
+	<e:Label text="Image" x="134" y="494" textColor="0x884526" size="30"/>
+	<e:Label text="music" x="364" y="598" textColor="0x884526" size="30"/>
+	<e:Label text="sound" x="364" y="516" textColor="0x884526" size="30"/>
+</e:Skin>

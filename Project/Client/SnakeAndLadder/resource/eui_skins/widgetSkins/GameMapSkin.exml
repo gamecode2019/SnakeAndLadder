@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMapSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_map" width="640" height="1085" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="map_bg" horizontalCenter="0" verticalCenter="0" x="-165.69" y="-442" scaleX="1" scaleY="1" source="map_01_png"/>
+		<e:Group id="snake_layer" width="640" height="1136" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="tree_layer" width="640" height="1136" horizontalCenter="0" verticalCenter="0" locked="true">
+		<e:Component id="step_0" width="120" height="30" x="294.11" y="857.35" scaleX="1" scaleY="1"/>
+		<e:Component id="step_1" width="60" height="20" x="185.17" y="847.8599999999999" scaleX="1" scaleY="1"/>
+		<e:Component id="step_2" width="60" height="20" x="103.68" y="819.3399999999999" scaleX="1" scaleY="1"/>
+		<e:Component id="step_3" width="80" height="20" x="38.989999999999995" y="775.3599999999999" scaleX="1" scaleY="1"/>
+		<e:Component id="step_4" width="80" height="20" x="35.019999999999996" y="744.71" scaleX="1" scaleY="1"/>
+		<e:Component id="step_5" width="60" height="20" x="48.989999999999995" y="708.69" scaleX="1" scaleY="1"/>
+		<e:Component id="step_6" width="60" height="20" x="90.48999999999998" y="681.69" scaleX="1" scaleY="1"/>
+		<e:Component id="step_7" width="60" height="20" x="172.9" y="665.69" scaleX="1" scaleY="1"/>
+		<e:Component id="step_8" width="60" height="20" x="269.3" y="669.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_9" width="60" height="20" x="363.5" y="668.69" scaleX="1" scaleY="1"/>
+		<e:Component id="step_10" width="60" height="20" x="443.3" y="687.69" scaleX="1" scaleY="1"/>
+		<e:Component id="step_11" width="60" height="16" x="504.8" y="712.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_12" width="60" height="16" x="549.3" y="693.69" scaleX="1" scaleY="1"/>
+		<e:Component id="step_13" width="50" height="16" x="575.8" y="671.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_14" width="60" height="16" x="560.5" y="644.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_15" width="50" height="16" x="560.5" y="624.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_16" width="60" height="16" x="492.8" y="613.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_17" width="60" height="20" x="416.5" y="584.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_18" width="80" height="26" x="308.51" y="568.69" scaleX="1" scaleY="1"/>
+		<e:Component id="step_19" width="50" height="18" x="240.5" y="553.19" scaleX="1" scaleY="1"/>
+		<e:Component id="step_20" width="60" height="20" x="153.5" y="538.68" scaleX="1" scaleY="1"/>
+		<e:Component id="step_21" width="80" height="26" x="62.5" y="507.67999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_22" width="60" height="20" x="25.5" y="476.17999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_23" width="60" height="18" x="13.52" y="447.17999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_24" width="80" height="26" x="16.99" y="415.17999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_25" width="60" height="20" x="63.489999999999995" y="384.67999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_26" width="60" height="20" x="167.17" y="383.67999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_27" width="60" height="20" x="249.11" y="389.17999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_28" width="60" height="20" x="322.3" y="408.17999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_29" width="60" height="20" x="395.5" y="429.67999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_30" width="60" height="18" x="477" y="443.83" scaleX="1" scaleY="1"/>
+		<e:Component id="step_31" width="58" height="18" x="540" y="432.66999999999996" scaleX="1" scaleY="1"/>
+		<e:Component id="step_32" width="60" height="18" x="570" y="411.67999999999995" scaleX="1" scaleY="1"/>
+		<e:Component id="step_33" width="50" height="16" x="575.8199999999999" y="383.66999999999996" scaleX="1" scaleY="1"/>
+		<e:Component id="step_34" width="60" height="20" x="554.83" y="356.03" scaleX="1" scaleY="1"/>
+		<e:Component id="step_35" width="60" height="18" x="527.02" y="329.03" scaleX="1" scaleY="1"/>
+		<e:Component id="step_36" width="60" height="18" x="462.62" y="311.02" scaleX="1" scaleY="1"/>
+		<e:Component id="step_37" width="60" height="18" x="398.62999999999994" y="299.34" scaleX="1" scaleY="1"/>
+		<e:Component id="step_38" width="60" height="18" x="334.65999999999997" y="285.36" scaleX="1" scaleY="1"/>
+		<e:Component id="step_39" width="60" height="18" x="249.95999999999998" y="274.03" scaleX="1" scaleY="1"/>
+		<e:Component id="step_40" width="60" height="18" x="172.22999999999996" y="260.36" scaleX="1" scaleY="1"/>
+		<e:Component id="step_41" width="60" height="18" x="107.03" y="245.02" scaleX="1" scaleY="1"/>
+		<e:Component id="step_42" width="60" height="18" x="40.489999999999995" y="232" scaleX="1" scaleY="1"/>
+		<e:Component id="step_43" width="60" height="18" x="20.96" y="203.33999999999997" scaleX="1" scaleY="1"/>
+		<e:Component id="step_44" width="60" height="18" x="39.66" y="175.99" scaleX="1" scaleY="1"/>
+		<e:Component id="step_45" width="60" height="18" x="73.01" y="148.01" scaleX="1" scaleY="1"/>
+		<e:Component id="step_46" width="70" height="18" x="137.54" y="137.34999999999997" scaleX="1" scaleY="1"/>
+		<e:Component id="step_47" width="80" height="18" x="236" y="122.7" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="ladder_layer" width="640" height="1136" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="Common_json.icon_SET" x="48" y="303.33" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

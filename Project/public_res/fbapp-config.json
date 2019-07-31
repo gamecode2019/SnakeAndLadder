@@ -1,0 +1,13 @@
+{
+  "instant_games": {
+    "navigation_menu_version":"NAV_FLOATING",
+    "custom_update_templates": {
+      "pass_score": {
+        "example": "Kun just scored 100 and passed Alissa's highscore!"
+      },
+      "join_room": {
+        "example": "123456"
+      }
+    }
+  }
+}

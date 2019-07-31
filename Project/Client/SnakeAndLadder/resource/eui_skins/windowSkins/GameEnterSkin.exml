@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1672f346f6e"/>
+
+
+
+
+	<e:Group anchorOffsetX="0" width="350" anchorOffsetY="0" height="370" horizontalCenter="0" top="197">
+		<ns1:MyButton id="start_1" label="" horizontalCenter="0" skinName="myButtonSkin" y="4"/>
+
+		<ns1:MyButton label="" id="start_2" skinName="myButtonSkin" y="131" horizontalCenter="0">
+		</ns1:MyButton>
+		<ns1:MyButton id="start_3" label="Training" skinName="myButtonSkin" y="258" horizontalCenter="0"/>
+
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+
+
+
+
+	</e:Group>
+
+
+</e:Skin>

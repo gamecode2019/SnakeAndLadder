@@ -1,0 +1,29 @@
+{
+  "1669ae65473": {
+    "path": "..\\resource\\eui_skins\\main_skins\\testTwo.ts",
+    "class": "testTwo",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalAdsorbEnable": false,
+    "globalBindingDataTestObj": []
+  },
+  "1672eff9cdc": {
+    "bindingDataTestObj": []
+  },
+  "1672f346f6e": {
+    "guideLinesEnabled": false
+  },
+  "1677871441a": {
+    "bindingDataTestObj": [],
+    "guideLinesEnabled": true,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}

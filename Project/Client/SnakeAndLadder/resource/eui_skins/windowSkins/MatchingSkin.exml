@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchingSkin" width="640" height="1600" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Panel id="g_panel" width="640" height="1600" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image horizontalCenter="0" verticalCenter="0" width="640" height="1600" alpha="1" fillMode="scale" source="Common_json.mask"/>
+		<e:Image id="bg" width="640" horizontalCenter="0" height="718" source="Common_json.bg_04" scale9Grid="100,223,500,30" x="0" scaleX="1" scaleY="1" verticalCenter="-82"/>
+		<ns1:MacthLoading id="math_loading" width="640" height="392" horizontalCenter="0" skinName="MacthLoadingSkin" verticalCenter="-248" x="0" y="124" scaleX="1" scaleY="1"/>
+		<e:Image source="Common_json.frame_01" horizontalCenter="0" height="184" verticalCenter="46" x="0" y="522" scaleX="1" scaleY="1" scale9Grid="80,10,480,7"/>
+		<e:List id="match_list" width="640" height="160" horizontalCenter="0" scrollEnabled="false" verticalCenter="46" x="0" y="522" scaleX="1" scaleY="1">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="40" paddingLeft="35"/>
+			</e:layout>
+		</e:List>
+		<ns1:MyButton id="start" label="Start" y="976" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-149.5" width="209" height="63">
+		</ns1:MyButton>
+		<ns1:MyButton id="invite" label="Invite more" scaleX="1" scaleY="1" y="976" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="150.5" width="209" height="63">
+		</ns1:MyButton>
+		<ns1:MyButton id="close_bn" label="Invite more" scaleX="1" scaleY="1" y="485.32" anchorOffsetX="0" anchorOffsetY="0" width="71" height="71" right="3">
+		</ns1:MyButton>
+	</e:Panel>
+</e:Skin>

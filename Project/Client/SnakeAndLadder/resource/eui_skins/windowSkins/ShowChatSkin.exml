@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShowChatSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="emojis_group0" width="99" height="110" x="94" anchorOffsetX="27" anchorOffsetY="108" bottom="146" visible="false">
+		<e:Image width="96.85" height="75.6" x="2.0900000000000034" y="32.860000000000014" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Image id="emojis0" width="79.85" height="75.6" x="10.090000000000003" y="6.860000000000014" anchorOffsetX="0" anchorOffsetY="0" source="Emojis_json.emojis_04" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="emojis_group1" width="99" height="110" x="230" anchorOffsetX="27" anchorOffsetY="108" bottom="146" visible="false">
+		<e:Image width="96.85" height="75.6" x="2.0900000000000034" y="32.860000000000014" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Image id="emojis1" width="79.85" height="75.6" x="10.090000000000003" y="6.860000000000014" anchorOffsetX="0" anchorOffsetY="0" source="Emojis_json.emojis_04" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="emojis_group2" width="99" height="110" x="371" anchorOffsetX="27" anchorOffsetY="108" bottom="147" visible="false">
+		<e:Image width="96.85" height="75.6" x="2.0900000000000034" y="32.860000000000014" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Image id="emojis2" width="79.85" height="75.6" x="10.090000000000003" y="6.860000000000014" anchorOffsetX="0" anchorOffsetY="0" source="Emojis_json.emojis_04" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="emojis_group3" width="99" height="110" x="508" anchorOffsetX="27" anchorOffsetY="108" bottom="147" visible="false">
+		<e:Image width="96.85" height="75.6" x="2.0900000000000034" y="32.860000000000014" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Image id="emojis3" width="79.85" height="75.6" x="10.090000000000003" y="6.860000000000014" anchorOffsetX="0" anchorOffsetY="0" source="Emojis_json.emojis_04" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="emojis_group4" width="99" height="110" x="93" anchorOffsetX="27" anchorOffsetY="108" bottom="146" visible="false">
+		<e:Image width="223.85" height="75.6" x="2.0900000000000034" y="32.860000000000014" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="12,9,74,46"/>
+		<e:Label id="chat0" text="You eyes beauty aaaaaa" x="12" y="38" textColor="0x111010" size="24" anchorOffsetX="0" width="212" anchorOffsetY="0" height="48"/>
+	</e:Group>
+	<e:Group id="emojis_group5" width="99" height="110" x="230" anchorOffsetX="27" anchorOffsetY="108" bottom="147" visible="false">
+		<e:Image width="223.85" height="75.6" x="2.0900000000000034" y="32.860000000000014" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="12,9,74,46"/>
+		<e:Label text="You eyes beauty aaaaaa" x="12" y="38" textColor="0x111010" size="24" anchorOffsetX="0" width="212" anchorOffsetY="0" height="48" id="chat1"/>
+	</e:Group>
+	<e:Group id="emojis_group6" width="99" height="110" x="260" anchorOffsetX="27" anchorOffsetY="108" bottom="149" visible="false">
+		<e:Image width="223.85" height="75.6" x="222.09" y="33.86" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" scale9Grid="12,9,74,46"/>
+		<e:Label text="You eyes beauty aaaaaa" x="12" y="38" textColor="0x111010" size="24" anchorOffsetX="0" width="212" anchorOffsetY="0" height="48" id="chat2"/>
+	</e:Group>
+	<e:Group id="emojis_group7" width="99" height="110" x="400" anchorOffsetX="27" anchorOffsetY="108" bottom="148" visible="false">
+		<e:Image width="223.85" height="75.6" x="222.09" y="33.86" source="Common_json.frame_03" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" scaleY="1" scale9Grid="12,9,74,46"/>
+		<e:Label text="You eyes beauty aaaaaa" x="12" y="38" textColor="0x111010" size="24" anchorOffsetX="0" width="212" anchorOffsetY="0" height="48" id="chat3"/>
+	</e:Group>
+</e:Skin>

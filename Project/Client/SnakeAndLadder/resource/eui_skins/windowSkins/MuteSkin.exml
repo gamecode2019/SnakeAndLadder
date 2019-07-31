@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MuteSkin" width="140" height="42" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="140" height="42" x="0" y="0" source="bar_jiazai_02_png"/>
+	<e:Label text="静音" x="33" y="6"/>
+</e:Skin>

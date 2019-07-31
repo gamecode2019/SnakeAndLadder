@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankItem" width="608" height="81" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="605" height="81" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="10,10,10,30" source="{data.bg}"/>
+	<e:Image id="head" width="61" height="61" x="115" y="10" anchorOffsetX="0" anchorOffsetY="0" source="{data.icon}"/>
+	<e:Label id="rank" x="40" y="17.5" textColor="0x884526" text="{data.rank}" size="40"/>
+	<e:Label x="209" y="25.5" text="{data.name}" textColor="0x884526"/>
+	<e:Label x="522" y="25.5" text="{data.won}" textColor="0x884526"/>
+	<e:Image id="rankImg" width="62" height="52" x="52" y="66.5" anchorOffsetX="31.5" anchorOffsetY="52" source="{data.rankImg}"/>
+</e:Skin>

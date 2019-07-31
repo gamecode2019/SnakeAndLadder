@@ -1,0 +1,9 @@
+{"file":"HeadIconTest.png","frames":{
+"head4":{"x":130,"y":1,"w":99,"h":105,"offX":0,"offY":0,"sourceW":99,"sourceH":105},
+"head5":{"x":362,"y":127,"w":97,"h":118,"offX":16,"offY":5,"sourceW":130,"sourceH":130},
+"head6":{"x":312,"y":1,"w":80,"h":120,"offX":27,"offY":7,"sourceW":130,"sourceH":130},
+"head7":{"x":231,"y":1,"w":79,"h":124,"offX":26,"offY":3,"sourceW":130,"sourceH":130},
+"head8":{"x":243,"y":127,"w":117,"h":103,"offX":6,"offY":14,"sourceW":130,"sourceH":130},
+"head1":{"x":125,"y":127,"w":116,"h":118,"offX":0,"offY":0,"sourceW":116,"sourceH":118},
+"head2":{"x":1,"y":1,"w":127,"h":124,"offX":0,"offY":0,"sourceW":127,"sourceH":124},
+"head3":{"x":1,"y":127,"w":122,"h":126,"offX":0,"offY":0,"sourceW":122,"sourceH":126}}}

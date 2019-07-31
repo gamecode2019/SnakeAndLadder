@@ -1,0 +1,38 @@
+{
+	"emojis":[
+		{"type":0,"id":0,"price":2000,"gropname":"HeadIconTest","name":"head1","itemName":"Emoji set name"},
+		{"type":0,"id":0,"price":2000,"gropname":"HeadIconTest","name":"head1","itemName":"Emoji set name"},
+		{"type":0,"id":0,"price":2000,"gropname":"HeadIconTest","name":"head1","itemName":"Emoji set name"},
+		{"type":0,"id":0,"price":2000,"gropname":"HeadIconTest","name":"head1","itemName":"Emoji set name"},
+		{"type":0,"id":1,"price":2000,"gropname":"HeadIconTest","name":"head2","itemName":"Emoji set name"},
+		{"type":0,"id":1,"price":2000,"gropname":"HeadIconTest","name":"head2","itemName":"Emoji set name"},
+		{"type":0,"id":1,"price":2000,"gropname":"HeadIconTest","name":"head2","itemName":"Emoji set name"},
+		{"type":0,"id":1,"price":2000,"gropname":"HeadIconTest","name":"head2","itemName":"Emoji set name"},
+		{"type":0,"id":2,"price":2000,"gropname":"HeadIconTest","name":"head3","itemName":"Emoji set name"},
+		{"type":0,"id":2,"price":2000,"gropname":"HeadIconTest","name":"head3","itemName":"Emoji set name"},
+		{"type":0,"id":2,"price":2000,"gropname":"HeadIconTest","name":"head3","itemName":"Emoji set name"},
+		{"type":0,"id":2,"price":2000,"gropname":"HeadIconTest","name":"head3","itemName":"Emoji set name"},
+		{"type":0,"id":3,"price":2000,"gropname":"HeadIconTest","name":"head4","itemName":"Emoji set name"},
+		{"type":0,"id":3,"price":2000,"gropname":"HeadIconTest","name":"head4","itemName":"Emoji set name"},
+		{"type":0,"id":3,"price":2000,"gropname":"HeadIconTest","name":"head4","itemName":"Emoji set name"},
+		{"type":0,"id":3,"price":2000,"gropname":"HeadIconTest","name":"head4","itemName":"Emoji set name"}
+	],
+	"piece":[
+		{"type":1,"id":100,"price":2000,"gropname":"HeadIconTest","name":"head1","itemName":"piece"},
+		{"type":1,"id":101,"price":2000,"gropname":"HeadIconTest","name":"head2","itemName":"piece"},
+		{"type":1,"id":102,"price":2000,"gropname":"HeadIconTest","name":"head3","itemName":"piece"},
+		{"type":1,"id":103,"price":2000,"gropname":"HeadIconTest","name":"head4","itemName":"piece"},
+		{"type":1,"id":104,"price":2000,"gropname":"HeadIconTest","name":"head5","itemName":"piece"},
+		{"type":1,"id":105,"price":2000,"gropname":"HeadIconTest","name":"head6","itemName":"piece"},
+		{"type":1,"id":106,"price":2000,"gropname":"HeadIconTest","name":"head7","itemName":"piece"},
+		{"type":1,"id":107,"price":2000,"gropname":"HeadIconTest","name":"head8","itemName":"piece"}
+	],
+	"gold":[
+		{"type":2,"id":200,"price":2000,"gropname":"Common","name":"apple","itemName":"50 apples"},
+		{"type":2,"id":201,"price":2000,"gropname":"Common","name":"apple_l","itemName":"100 apples"},
+		{"type":2,"id":202,"price":2000,"gropname":"Common","name":"apple_l","itemName":"200 apples"},
+		{"type":2,"id":203,"price":2000,"gropname":"Common","name":"apple_l","itemName":"300 apples"},
+		{"type":2,"id":204,"price":2000,"gropname":"Common","name":"apple_l","itemName":"400 apples"},
+		{"type":2,"id":205,"price":2000,"gropname":"Common","name":"apple_l","itemName":"500 apples"}
+	]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" width="306.06" height="200" x="109.03" y="1008.58" anchorOffsetY="203.03" anchorOffsetX="0">
+		<e:Image id="chatBg" width="377.27" height="160" x="148.93" y="113.55" anchorOffsetX="188.64" anchorOffsetY="80" rotation="359.63" source="Common_json.frame_03" scaleX="1" scaleY="1" scale9Grid="78,9,12,48"/>
+		<e:Image id="sendImg" width="62" height="41.33" x="269.16" y="121.33" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.icon_huiche" scaleX="1" scaleY="1"/>
+		<e:Scroller id="srcListImg" width="350.43" height="85.39" x="-23.21" y="34.06" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:List id="listImg" x="26" anchorOffsetX="0" width="606" anchorOffsetY="0" height="83.39">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label id="chatText" text="我等的花儿都快谢了" x="38.68" y="128.02" anchorOffsetX="0" width="352.79" textColor="0x070707" size="25" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Image id="bg" width="281" height="188" x="-17.25" y="128.64" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.frame_16" scale9Grid="8,7,17,15" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image width="281" height="33.64" x="-16.65" y="124.7" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.frame_16" scale9Grid="8,7,17,15" scaleX="1" scaleY="1"/>
+		<e:EditableText id="textInput" width="268.48" height="24.06" text="Input ...." x="-8.67" y="130.07" anchorOffsetX="0" anchorOffsetY="0" size="24" textColor="0x884526" scaleX="1" scaleY="1"/>
+		<e:Button id="chatBtn" label="" x="234.43" y="132.87" anchorOffsetX="0" width="26" anchorOffsetY="0" height="19.33" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Common_json.icon_jiantou1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="srcListText" width="600" height="288.18" x="-18.22" y="158.91" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+			<e:List id="listText" y="-95.45" anchorOffsetY="0" height="288.18">
+			<e:layout>
+				<e:VerticalLayout gap="9"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object text="afasdfasdf"/>
+				<e:Object text="fasdfasdfa"/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

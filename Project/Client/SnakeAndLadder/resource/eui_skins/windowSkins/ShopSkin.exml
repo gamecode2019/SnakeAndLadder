@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="bg_03_png" alpha="0.2"/>
+	<e:Image width="640" height="276" x="0" y="0" source="Common_json.bg_04"/>
+	<e:Image width="640" height="22" x="0" y="276" source="Common_json.frame_01"/>
+	<e:Image width="640" height="841" x="0" y="296" source="Common_json.frame_01" anchorOffsetY="0"/>
+	<ns1:MyButton id="emojis_btn" label="" width="209" height="63" left="62" top="206"/>
+	<ns1:MyButton id="gameGold_btn" label="" width="209" height="63" top="206" right="73"/>
+	<ns1:MyButton id="close_btn" label="" width="71" height="71" right="3" top="111"/>
+	<e:Scroller id="shop_Scroller" width="628" height="837" x="6" y="290" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="shopItmeList" itemRendererSkinName="ShopItemWidget" height="837" scrollEnabled="true" anchorOffsetY="0" anchorOffsetX="0" width="628">
+			<e:layout>
+				<e:TileLayout horizontalGap="6" verticalGap="20"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image width="160" height="56" x="241.5" y="139" source="Common_json.font_shop"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MacthLoadingSkin" width="640" height="392" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="Common_json.font_wait" x="187" y="143"/>
+	<e:Label id="tip" text="Waiting for firends ..." fontFamily="hydsf" horizontalCenter="0" verticalCenter="44" size="40" strokeColor="0x000000" textColor="0x884526"/>
+	<ns1:TimeButtonSkin id="loading" width="130" height="130" horizontalCenter="0" skinName="TimeButtonView" scaleX="1" scaleY="1" bottom="1"/>
+</e:Skin>

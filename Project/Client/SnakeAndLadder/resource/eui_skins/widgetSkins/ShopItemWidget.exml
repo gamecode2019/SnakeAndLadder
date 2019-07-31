@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopItemWidget" width="628" height="233" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="628" height="213" x="1" y="0" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.frame_02" scale9Grid="18,14,59,40"/>
+	<e:Scroller width="563" height="118" x="33" y="49" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="shopItemIcoList" itemRendererSkinName="ShopItemEmojis" width="563" height="118">
+			<e:layout>
+				<e:HorizontalLayout gap="33"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="gro_buy" horizontalCenter="0.5" y="171">
+		<ns1:MyButton id="buy_btn" label="{data.id}" width="209" height="63" top="0" horizontalCenter="0"/>
+		<e:Image width="31" height="37" x="45" y="8" source="Common_json.icon_apple"/>
+		<e:Label id="buy_goldcount" text="{data.gold}" x="85" y="19" anchorOffsetX="0" width="83" height="23"/>
+	</e:Group>
+	<e:Label id="itemName" y="20" text="{data.itemName}" width="230" height="25" horizontalCenter="0" verticalAlign="middle" textAlign="center" textColor="0x884526" fontFamily="hydsf"/>
+	<e:Label id="itemId" text="{data.id}" x="415" y="10" alpha="0"/>
+</e:Skin>

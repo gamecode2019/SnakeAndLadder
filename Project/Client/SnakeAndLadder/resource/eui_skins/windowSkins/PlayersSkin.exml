@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="_player1Btn" label="" x="53.5" y="918">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HeadIcons_json.icon_head_main_01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_player2Btn" label="" x="206.5" y="918">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HeadIcons_json.icon_head_main_01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_player3Btn" label="" x="343.5" y="918">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HeadIcons_json.icon_head_main_01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_player4Btn" label="" x="497.5" y="918">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HeadIcons_json.icon_head_main_01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_player1Name" text="name" x="53.5" y="1023"/>
+	<e:Label id="_player2Name" text="name" x="218" y="1023"/>
+	<e:Label id="_player3Name" text="name" x="355" y="1023"/>
+	<e:Label id="_player4Name" text="name" x="509" y="1023"/>
+	<e:Image id="_player1Img" width="102" height="64" x="53.5" y="820" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.bg_1"/>
+	<e:Image id="_player2Img" width="102" height="64" x="355" y="820" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.bg_1"/>
+	<e:Image id="_player3Img" width="102" height="64" x="218" y="820" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.bg_1"/>
+	<e:Image id="_player4Img" width="102" height="64" x="509" y="820" anchorOffsetX="0" anchorOffsetY="0" source="Common_json.bg_1"/>
+</e:Skin>

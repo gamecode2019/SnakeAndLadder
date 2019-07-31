@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeadIconWidgetSkin" width="110" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1672eff9cdc"/>
+	<e:Image id="head_kuang" height="110" width="110" source="Common_json.frame_07" scale9Grid="13,14,8,86" anchorOffsetX="55" anchorOffsetY="55" horizontalCenter="0" verticalCenter="-12.5"/>
+	<e:Image id="head_img" width="108" height="108" source="Emojis_json.emojis_01" anchorOffsetX="54" anchorOffsetY="54" horizontalCenter="0" verticalCenter="-13.5"/>
+	<e:Label id="head_name" text="我的名字" bottom="2" fontFamily="hydsf" horizontalCenter="0" size="20" textColor="0x884526"/>
+</e:Skin>

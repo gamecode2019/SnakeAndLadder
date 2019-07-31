@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LabelSkin" width="281" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="text" text="{data.text}" x="10" y="8" anchorOffsetX="0" width="280" height="21" textColor="0x884526" size="24"/>
+	<e:Image id="img" width="270" height="1" x="5" y="3" source="Common_json.frame_14" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>
